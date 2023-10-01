@@ -195,10 +195,11 @@ a {
 }
 /* |> WELCOME SECTION '-------------------------------------------------------*/
 .o-welcomeSection{
-    padding: 72rem 0;
+    padding: 75rem 0;
     background-color: var(--mainColor);
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -232,7 +233,7 @@ a {
     margin-top: 16rem;
 }
 .m-infoSectionContent__text{
-    max-width: 600rem;
+    max-width: 90%;
     color: #3D5545;
     font-family: Fira Sans;
     font-size: 16px;
@@ -275,7 +276,9 @@ a {
 /* |> WELCOME SECTION '-------------------------------------------------------*/
 .o-hotelSection{
     padding: 72rem 0;
-    background-color: #ECECE7;
+    /* background-color: #ECECE7; */
+    background-image: url("../src/images/Centinela-Covadonga.jpg");
+    background-position: inherit;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -291,6 +294,11 @@ a {
     font-weight: 400;
     line-height: normal;
     max-width: 600rem;
+    margin-bottom: 30px;
+}
+.o-welcomeSection img{
+    width: 65px;
+    height: 40px;
 }
 
 .o-formSection{
@@ -392,7 +400,7 @@ a {
         flex-direction: column;
     }
     .m-heroSection__info{
-        gap: 48rem;
+        gap: 28rem;
         padding: 32rem;
 
     }
@@ -421,5 +429,17 @@ a {
     iframe{
         width: 100%;
     }
+    .o-hotelSection{
+        background-position: top;
+    }
 
 }
+
+
+
+
+/* 
+Movil:     background-position: top;
+ PC:    background-position: inherit;
+
+*/
