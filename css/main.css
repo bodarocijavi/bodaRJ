@@ -186,6 +186,13 @@ a {
     padding: 0px;
     gap: 64px;
 }
+.o-sectionContainer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+}
 /* |> WELCOME SECTION '-------------------------------------------------------*/
 .o-welcomeSection{
     padding: 72rem 0;
@@ -290,7 +297,7 @@ a {
     padding: 32rem;
     border-radius: 15rem;
     overflow: none;
-    /* border: 2px solid var(--mainColor); */
+    border: 2px solid var(--mainColor);
 }
 
 
