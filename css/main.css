@@ -267,6 +267,8 @@ a {
     display: flex;
     flex-direction: row;
     gap: 8rem;
+    align-items: center;
+   
 }
 #vueltaRoca::after{
     content: "Vuelta a Rocafor";
@@ -428,6 +430,7 @@ a {
     }
     .m-infoSection__image{
         flex-direction: column;
+       
     }
     iframe{
         width: 100%;
