@@ -224,6 +224,7 @@ a {
     display: flex;
     flex-direction: row;
     gap: 40rem;
+    justify-content: center
 }
 .m-infoSection__layout:nth-child(even){
     flex-direction: row-reverse;
@@ -280,7 +281,7 @@ a {
 .o-hotelSection{
     padding: 72rem 0;
     /* background-color: #ECECE7; */
-    background-image: url("../src/images/Centinela-Covadonga.jpg");
+    background-image: url("../src/images/sagrado-corazon.jpeg");
     /* background-position: center right; */
     /* background-repeat:round; */
     width: 100%;
@@ -288,6 +289,11 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.o-hotelSection1{
+    background-color: rgba(238, 235, 221, 0.56);
+    border-radius: 10%;
+    padding: 30px;
 }
 .o-welcomeSection span{
     color: var(--mainBackground);
@@ -442,6 +448,16 @@ a {
     .o-hotelSection{
         background-position: top;
     }
+    .o-hotelSection1{
+        width: 100%;
+        background-color: rgba(238, 235, 221, 0.56);
+        border-radius:0;
+        padding: 30px;
+    }
+ 
+
+
+
 
 }
 
