@@ -281,9 +281,9 @@ a {
 .o-hotelSection{
     padding: 72rem 0;
     background-color: #b7dfeb;
-    background-image: url("../src/images/javi.jpeg");
-    /* background-position: center right; */
-    /* background-repeat:round; */
+    background-image: url("../src/images/cristo\ naranco.jpg");
+    /* background-position: center right;
+    background-repeat:none; */
     width: 100%;
     display: flex;
     flex-direction: row;
