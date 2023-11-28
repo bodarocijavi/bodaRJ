@@ -57,6 +57,8 @@ a {
     box-shadow: 0px 14.2579px 28.5158px rgba(0, 0, 0, 0.05);
     padding: 25rem 64rem;
     z-index: 2;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,0) 0%, rgba(255,57,0,1) 30%, rgba(255,244,0,1) 30%, rgba(228,255,0,1) 70%, rgba(255,8,8,1) 70%, rgba(251,0,0,1) 100%);
 }
 
 /* |> LEFT SIDE ---------------------------------------------------------------*/
@@ -281,7 +283,7 @@ a {
 .o-hotelSection{
     padding: 72rem 0;
     background-color: #b7dfeb;
-    background-image: url("../src/images/cristo\ naranco.jpg");
+    /* background-image: url("../src/images/cristo\ naranco.jpg"); */
     /* background-position: center right;
     background-repeat:none; */
     width: 100%;
